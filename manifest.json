@@ -1,0 +1,17 @@
+{
+  "name": "My Index",
+  "version": "0.1",
+  "description": "Displays percent change in your index.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+//  "browser_action": {
+//    "default_title": "Percent change in your index",
+//    "default_popup": "popup.html"
+//  },
+  "browser_action": {
+    "name": "Click refresh"
+  },
+  "permissions": ["http://query.yahooapis.com/"],
+  "manifest_version": 2
+}
